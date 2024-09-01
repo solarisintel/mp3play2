@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<!-- ボタンを押された時 -->
+	<item
+		android:state_pressed="true"
+		android:state_enabled="true"
+		android:drawable="@drawable/music_play_push"/>
+	<!-- ボタンにフォーカスがあたった時 -->
+	<item
+		android:state_focused="true"
+		android:state_enabled="true"
+		android:drawable="@drawable/music_play_push"/>
+	<!-- 上記以外の条件の時 -->
+	<item
+		android:state_enabled="true"
+		android:drawable="@drawable/music_play"/>    
+
+</selector>

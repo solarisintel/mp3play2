@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.solarisintel.mp3play.MainActivity" >
+
+    <item
+        android:id="@+id/action_snail"
+        android:icon="@drawable/snail"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="more slow"/>
+
+    <item
+        android:id="@+id/action_turtle"
+        android:icon="@drawable/turtle"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="slow"/>
+
+    <item
+        android:id="@+id/action_normal"
+        android:icon="@drawable/walk"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="normal"/>
+
+    <item
+        android:id="@+id/action_hurry"
+        android:icon="@drawable/hurry"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="hurry"/>
+
+</menu>
